@@ -8,9 +8,20 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <div class="portfolio-title">
+  <header class="main-header">
   <h1>My Portfolio</h1>
-</div>
+  <div class="social-icons">
+    <a href="https://www.instagram.com" target="_blank">
+      <img src="assets/images/instagram.png" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com/in/ademe-etefworkie-melaku-3b286b2b5/" target="_blank">
+      <img src="assets/images/linkedin.png" alt="LinkedIn">
+    </a>
+    <a href="https://www.youtube.com/@novelnet" target="_blank">
+      <img src="assets/images/youtube.png" alt="YouTube">
+    </a>
+  </div>
+  </header>
   <!-- Header with video background -->
   <header class="hero-header">
     <video autoplay muted loop class="background-video">
@@ -36,37 +47,135 @@
 
     <!-- Skills Section -->
     <section class="skills-section">
-      <h2>Skills & Tools</h2>
+  <h2>Skills & Tools</h2>
+   
+  <!-- Design Tools -->
+  <div class="skill-category">
+  <h3>🎨 Design Tools</h3>
+  <div class="skill-row">
+    <div class="skill-card reveal visible">
+      <img src="assets/images/adobe-xd.png" alt="Adobe XD Logo">
+      <h4>Adobe XD</h4>
+      <p>1 month experience</p>
+    </div>
+    <div class="skill-card reveal visible">
+      <img src="assets/images/canva.svg" alt="Canva Logo">
+      <h4>Canva</h4>
+      <p>1 year experience</p>
+    </div>
+    <div class="skill-card reveal visible">
+      <img src="assets/images/adobe-photoshop.png" alt="Photoshop Logo">
+      <h4>Adobe Photoshop</h4>
+      <p>7 years experience</p>
+    </div>
+    <div class="skill-card reveal visible">
+      <img src="assets/images/illustrator.png" alt="Illustrator Logo">
+      <h4>Adobe Illustrator</h4>
+      <p>3 months experience</p>
+    </div>
+  </div>
+</div>
 
-      <div class="skill-category">
-        <h3>🎨 Design Tools</h3>
-        <ul>
-          <li>Adobe Photoshop</li>
-          <li>Adobe Illustrator</li>
-          <li>Adobe XD</li>
-        </ul>
+  <!-- Video/Audio Tools -->
+  <div class="skill-category">
+    <h3>🎬 Video & Audio Tools</h3>
+    <div class="skill-row">
+      <div class="skill-card reveal visible">
+        <img src="assets/images/premiere-pro.png" alt="Premiere Pro Logo">
+        <h4>Adobe Premiere Pro</h4>
+        <p>7 years experience</p>
       </div>
-
-      <div class="skill-category">
-        <h3>🎬 Video & Audio Editing</h3>
-        <ul>
-          <li>Adobe Premiere Pro</li>
-          <li>CapCut</li>
-          <li>Video Studio</li>
-          <li>Adobe Audition</li>
-        </ul>
+      <div class="skill-card reveal visible">
+        <img src="assets/images/capcut.svg" alt="CapCut Logo">
+        <h4>CapCut</h4>
+        <p>3 years experience</p>
       </div>
-
-      <div class="skill-category">
-        <h3>🛠 Development & Collaboration</h3>
-        <ul>
-          <li>Git & GitHub</li>
-          <li>Visual Studio Code</li>
-        </ul>
+      <div class="skill-card reveal visible">
+        <img src="assets/images/adobe-audition.png" alt="Adobe Audition Logo">
+        <h4>Adobe Audition</h4>
+        <p>6 years experience</p>
       </div>
-    </section>
+    </div>
+  </div>
 
-  </body>
-</html>
+  <!-- No-Code Platforms -->
+  <div class="skill-category">
+    <h3>🌐 No-Code Platforms</h3>
+    <div class="skill-row">
+      <div class="skill-card reveal visible">
+        <img src="assets/images/shopify.png" alt="Shopify Logo">
+        <h4>Shopify</h4>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill-card reveal visible">
+        <img src="assets/images/wix.png" alt="Wix Logo">
+        <h4>Wix</h4>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill-card reveal visible">
+        <img src="assets/images/hostinger.svg" alt="Hostinger Logo">
+        <h4>Hostinger</h4>
+        <p>1 year experience</p>
+      </div>
+      <div class="skill-card reveal visible">
+        <img src="assets/images/wordpress.png" alt="WordPress Logo">
+        <h4>WordPress</h4>
+        <p>1 year experience</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Developer Tools -->
+  <div class="skill-category">
+    <h3>🛠️ Developer Tools</h3>
+    <div class="skill-row">
+      <div class="skill-card reveal visible">
+        <img src="assets/images/github.png" alt="GitHub Logo">
+        <h4>GitHub</h4>
+        <p>1 month experience</p>
+      </div>
+    </div>
+  </div>
+</section>
+ <section class="footer-message">
+  <p>
+    I am committed to continuous learning and growth in both design and development.
+    My goal is to master the latest tools and technologies to create meaningful digital experiences and inspire innovation through creativity.
+  </p>
+</section>
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>&copy; 2025 Etefworkie Melaku. All rights reserved.</p>
+    <p>Contact me on <a href="https://github.com/melakunet" class="footer-link">GitHub</a></p>
+    <div class="footer-social-icons">
+      <a href="https://www.instagram.com/yourusername" target="_blank">
+        <img src="assets/images/instagram.png" alt="Instagram">
+      </a>
+      <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+        <img src="assets/images/linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://www.youtube.com/@novelnet" target="_blank">
+        <img src="assets/images/youtube.png" alt="YouTube">
+      </a>
+    </div>
+  </div>
+</footer>
+ <script>
+  const reveals = document.querySelectorAll('.reveal');
+
+  const revealOnScroll = () => {
+    const windowHeight = window.innerHeight;
+
+    reveals.forEach((el) => {
+      const elementTop = el.getBoundingClientRect().top;
+      if (elementTop < windowHeight - 100) {
+        el.classList.add('visible');
+      }
+    });
+  };
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+</script>
 </body>
 </html>
