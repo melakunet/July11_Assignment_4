@@ -1,29 +1,15 @@
-# July11_Assignment_4 - Personal Portfolio Website
+# My Portfolio – Final Project
 
-This is my personal portfolio website project created as part of **Assignment 4** for the **VCC course final**.
+This is my final assignment for the VCC Mobile & Web Development course.  
+It showcases my skills in HTML, CSS, and responsive design, including:
 
-## 📁 Project Overview
+- Animated UI
+- Section-based skill cards
+- Hover effects
+- GitHub Pages deployment
 
-The website is built using **HTML** and showcases:
-- My name and introduction
-- A list of my projects or skills
-- Contact details or social media links
-- Clean design using Google Fonts
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3 (optional for styling)
-- Google Fonts
-
-## 🔗 Live Site
-
-View the deployed site here: [GitHub Pages Site](https://melakuneet.github.io/July11_Assignment_4/)
-
-## 📄 License
-
-This project is licensed under the MIT License.
+View it live: [melakunet.github.io](https://melakunet.github.io)
 
 ---
 
-*Created by [Your Name]* — as part of VCC final coursework.
+© 2025 Etefworkie Melaku
